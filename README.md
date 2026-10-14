@@ -189,4 +189,6 @@ web-aula5-779c6f9566-rchtq   1/1     Running   0          6m59s
 web-aula5-779c6f9566-v6zh8   1/1     Running   0          6m59s
 root@controlplane:~$ 
 
+1. O que é um Pod?
+Um Pod é a menor unidade de execução do Kubernetes. Ele contém um ou mais contêineres que executam uma aplicação.
 
