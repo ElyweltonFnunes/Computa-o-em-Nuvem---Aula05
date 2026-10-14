@@ -192,3 +192,12 @@ root@controlplane:~$
 1. O que é um Pod?
 Um Pod é a menor unidade de execução do Kubernetes. Ele contém um ou mais contêineres que executam uma aplicação.
 
+2. Qual é o papel de um Deployment?
+Um Deployment é um recurso do Kubernetes responsável por gerenciar os Pods de uma aplicação, garantindo que a quantidade desejada de réplicas esteja em execução.
+
+3. O que aconteceu quando apagamos um Pod?
+Quando apagamos um Pod, o Kubernetes criou automaticamente outro Pod para substituí-lo, porque o Deployment estava configurado para manter a quantidade desejada de réplicas.
+
+4. Por que um Service é útil se Pods podem ser criados e removidos?
+Um Service é útil porque fornece um endereço estável para acessar uma aplicação, mesmo quando os Pods são removidos, recriados ou substituídos.
+
