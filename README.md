@@ -188,3 +188,5 @@ web-aula5-779c6f9566-n6l8d   1/1     Running   0          6m59s
 web-aula5-779c6f9566-rchtq   1/1     Running   0          6m59s
 web-aula5-779c6f9566-v6zh8   1/1     Running   0          6m59s
 root@controlplane:~$ 
+
+
